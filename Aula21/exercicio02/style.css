@@ -1,0 +1,13 @@
+/* seletores de cor do google para pegar os códigos das cores*/
+body {
+    background-color: rgb(251, 240, 225);
+}
+
+a {
+    color: rgb(186, 54, 54);
+    text-decoration: none; /*sublinhado do link*/
+}
+
+a:visited {
+    color: rgb(96, 19, 19);
+}
