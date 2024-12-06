@@ -1,0 +1,42 @@
+body {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(192, 10, 10);
+
+}
+
+h1 {
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+button {
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: rgba(0, 94, 13, 0.901);
+    color: aliceblue;
+    border-radius: 12px;
+    padding: 08px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#text {
+    font-size: 18px;
+}
+
+p {
+    color: black;
+    font-family: serif;
+    margin: 30px;
+}
+
+#btn3 {
+    margin: 50px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 60px;
+}

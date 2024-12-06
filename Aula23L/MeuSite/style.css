@@ -1,0 +1,198 @@
+/* Estilos para desktop */
+@media (min-width: 769px) {
+    #cabecalho_mobile {
+        display: none;
+        /*não exibe o cabeçalho no mobile*/
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(165, 35, 35);
+        font-weight: bold;
+    }
+
+    .cabecalho_logo {
+        padding: 2.em 0;
+        width: 10em;
+        margin-left: 40px;
+        display: flex;
+        justify-content:initial ;
+    }
+
+    .cabecalho_menu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: linear-gradient(90deg, rgba(14, 13, 14, 0.497) 0%, rgb(129, 15, 7) 50%, rgba(14, 13, 14, 0.518) 100%);
+        padding: 2%;
+        border-radius: 10px;
+    }
+
+    .cabecalho_item-menu a {
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: 1.86em 1.42em;
+        text-decoration: none;
+        color: rgb(16, 16, 17);
+        font-family: Coke;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    #cabecalho_desk {
+        display: none;
+    }
+
+}
+
+.escondida {
+    display: none;
+}
+
+#dropdown-menu {
+    padding: 2%;
+    align-items: start;
+}
+
+#dropdown-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: coke;
+    color: aliceblue;
+}
+
+.banner-texto {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/cocacola.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.banner-texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s ease;
+}
+
+.banner-texto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px 0 rgba(255, 255, 255, 0.439);
+}
+
+.botao-saiba-mais {
+    transition: all 0.5s ease;
+    background-color: rgba(22, 22, 22, 0.382);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 120px;
+    margin-top: 5px;
+    align-self: center;
+}
+
+.botao-saiba-mais:hover {
+    transform: translateY(-2px);
+    background-color: #08080831;
+    box-shadow: 0 20px 30px 0 rgb(32, 0, 0);
+}
+
+.container-pai {
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-evenly;
+    padding: 25px;
+    background-color: rgb(165, 35, 35);
+}
+
+.container-filho {
+    /* background-color: #961910; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 250px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    font-size: 10px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(14, 13, 14, 1) 0%, rgb(129, 15, 7) 50%, rgba(14, 13, 14, 1) 100%);
+    padding: 20px;
+    border-radius: 28%;
+}
+
+.imagem_garrafas {
+    width: 180px;
+    height: 150px;
+    border-radius: 80%;
+}
+
+.texto {
+    color: rgba(255, 250, 250, 0.733);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(165, 35, 35);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imagem-filha {
+    transform: translateY(-2px);
+    background-color: #08080831;
+    box-shadow: 0 20px 30px 0 rgb(32, 0, 0);
+    width: 45%;
+    
+}
+
+.imagem-filha:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.imagem2 {
+    width: 400px;
+}
+
+.imagem2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+@font-face {
+    font-family: 'Coke';
+    src: url('fontes/cocacola.ttf') format('truetype');
+}
+
+.logo2 {
+    display: flex;
+    
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(165, 35, 35);
+    justify-content: space-evenly;
+}

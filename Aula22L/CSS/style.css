@@ -1,0 +1,25 @@
+body {
+    background-color:rgb(223, 121, 48) ;
+    color: antiquewhite;
+    font-size: 12px;
+}
+
+h1 {
+    color: beige;
+}
+
+a {
+    color: aqua;
+}
+
+button {
+    margin: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: rgb(238, 158, 222);
+    cursor: pointer;
+}

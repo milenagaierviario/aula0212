@@ -1,0 +1,39 @@
+#container-pai {
+    background-color: rgb(181, 178, 178);
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    /* padding: 10px; */
+    text-align: center;
+    justify-content: space-around; /*controla como eles ficarão dispostos, epsaçamentos, centralizados etc...*/
+    flex-direction: row; /*controla a direção do eixo principal, ou seja, a direção na qual os filhos do containerpai serão dispostos*/
+    align-items:center; /*vai alinhar os itens compostos no container*/
+    flex-wrap: nowrap; /*define se a página vai ter quebra quando oconsole aumentar na tela*/
+    gap: 15px; /*alinhamento somente dos filhos, sem considerar o container pai*/
+    height: 300px;  
+}
+
+.container-filho {
+    padding: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+#filho-1 {
+    background-color: cornflowerblue ;
+    order: 2; /*troca a ordem das divs, aumentando o valor, esse elemento fica por último*/
+}
+
+#filho-2 {
+    background-color: rgb(239, 239, 66);  
+    flex-grow: 1;  /*padrão é zero, aumenta o tamanho e se usado no no container filho muda todos.*/
+    order: 1;
+}
+
+
+#filho-3 {
+    background-color: rgb(179, 10, 10);
+    order: 3;
+}
+
+

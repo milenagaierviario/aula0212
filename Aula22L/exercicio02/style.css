@@ -1,0 +1,22 @@
+#green {
+    background-color: rgb(7, 168, 7);
+    text-align: center;
+}
+
+.red {
+background-color: brown;
+}
+
+#titulo-principal {
+    color: rgb(4, 154, 4);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    background-color: rgb(234, 226, 226);
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+}
